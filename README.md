@@ -15,6 +15,9 @@ $ npm run dev        //运行项目
  项目是根据  思铭  大佬的微信公众号教程自己写的demo，
  包含了常用webpack配置环境，react零基础开始学习，常用方法，
  技巧，router，自定义封装ajax，请求mock数据等等，还有redux，flux，refast，mobx
- 等等。 <br/> <br/>
+ 等等。 
+ <br/> 
+ <br/>
  大佬微信公众号：前端人人
-
+ <br/>
+![Image text](https://github.com/649273833/img/blob/master/img/_20180622095106.png)
