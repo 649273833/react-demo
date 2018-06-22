@@ -20,5 +20,5 @@ $ npm run dev        //运行项目
  <br/>
  大佬微信公众号：前端人人
  <br/>
-    <img src="https://github.com/649273833/img/blob/master/img/_20180622095106.png" alt="微信公众号" title="微信公众号">
+    <img src="https://github.com/649273833/img/blob/master/img/_20180622095106.png" width="375px" alt="微信公众号" title="微信公众号">
 
