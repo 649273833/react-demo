@@ -297,3 +297,106 @@ td:hover .editable-cell-icon {
   padding: 30px 50px;
   margin: 20px 0;
 }
+.gundong{
+  .gdBox{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 15px;
+    &.hx{
+      width: 400px;
+      div{
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        span{
+          position: relative;
+          top: 0;
+          white-space: nowrap;
+          overflow: hidden;
+          height: 100%;
+          max-width: 100%;
+          text-align: left;
+        }
+      }
+    }
+    &.zx{
+      height: 280px;
+      div{
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        span{
+          position: relative;
+          left: 0;
+          white-space:normal;
+          word-break:break-all;
+          overflow: hidden;
+          height: 100%;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .text,.fontcolor{
+    min-width: 90px;
+    max-width: 200px;
+  }
+  .fontcolor{
+    width: 90px;
+  }
+  button{
+    margin-right: 10px;
+  }
+  .huadong{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    .prev,.next{
+      position: absolute;
+      top: 50%;
+      width: 30px;
+      height: 30px;
+      border: 1px solid #333;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 26px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .prev{
+      left: 0;
+      transform: translateY(-50%);
+    }
+    .next{
+      right: 0;
+      transform: translateY(-50%);
+    }
+    .box{
+      width: calc(100% - 60px);
+      margin: 0 auto;
+      position: relative;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .item{
+        width: 40%;
+        height: 180px;
+        background-color: #fff;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        text-align: center;
+        line-height: 200px;
+        &.active{
+          position: absolute;
+          z-index: 5;
+          left: 50%;
+          height: 200px;
+          border-color: #33ADFF;
+          transform: translateX(-50%);
+        }
+      }
+    }
+  }
+}
