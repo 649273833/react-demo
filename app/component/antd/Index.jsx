@@ -52,7 +52,7 @@ import MyPopconfirm from './Popconfirm/Index';
 import MySpin from './Spin/Index';
 import MyLocaleProvider from './LocaleProvider/Index';
 import MySlick from './react-slick/Index';
-
+import Gundong from './gundong/Index'
 import {Layout,Menu,Breadcrumb,Icon,Row,Col,Switch} from 'antd';
 const {Header,Content,Footer,Sider} = Layout;
 const SubMenu = Menu.SubMenu;
@@ -322,6 +322,9 @@ class Index extends React.Component{
                                     <Menu.Item key='48'>
                                         <NavLink to='/Antd/Slick'>react-slick</NavLink>
                                     </Menu.Item>
+                                    <Menu.Item key='49'>
+                                        <NavLink to='/Antd/Gundong'>滚动</NavLink>
+                                    </Menu.Item>
                                 </SubMenu>
                             </Menu>
                         </Sider>
@@ -431,6 +434,8 @@ class Index extends React.Component{
                                 <Route path='/Antd/Spin' component={MySpin}/>
                                 <Route path='/Antd/LocaleProvider' component={MyLocaleProvider}/>
                                 <Route path='/Antd/Slick' component={MySlick}/>
+                                <Route path='/Antd/Gundong' component={Gundong}/>
+
                             </Content>
                             <Footer style={{textAlign:'center'}}>
                                 这是footer
